@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rapid Shrink : Shorten Your URL</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="Script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <a class="nav_logo" href="#">Rapid Shrink</a>
+            <ul>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#section_1">Features</a></li>
+                <li><a href="#section_4">Integrations</a></li>
+                <li><a href="#section_6">FAQs</a></li>
+                <li><a href="#footer">Contact us</a></li>
+            </ul>
+            <div class="nav_btns">
+                <a href="">Login</a>
+                <button class="signup_btn" type="button">Sign up</button>
+            </div>
+            <div class="mobile-nav-btn">
+                <img src="Images/list.png" alt="">
+            </div>
+        </nav>
+        <header id="hero-section">
+            <div class="hero-section-row">
+                <div class="hero-first-column">
+                    <span>Easy link shortening</span>
+                    <h1>Shrinks Your URLs Rapidly & Generate QR Code</h1>
+                    <p>A short link allows you to collect so much data about <br> your customers & their behaviors.</p>
+                    <form action="">
+                        <input type="url" id="urlInput" placeholder="Paste your long URL">
+                        <button type="button" class="shorten-btn" onclick="shortUrl()">Go</button>
+                    </form>
+
+                    <div class="shortUrlContainer">
+                        <p class="errorMsg"></p>
+                    </div>
+                </div>
+                <div class="hero-second-column">
+                    <img src="Images/hero_img.svg" alt="">
+                </div>
+            </div>
+        </header>
+
+        <div class="mobile-navbar">
+            <div class="mobile-navbar-back">
+                <img class="close-icon" src="/Images/close.png" alt="">
+            </div>
+            <ul>
+                <li><a href="#hero_section">Home</a></li>
+                <li><a href="#section_1">Features</a></li>
+                <li><a href="#section_4">Integrations</a></li>
+                <li><a href="#section_6">FAQs</a></li>
+                <li><a href="#footer">Contact us</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <section id="section_1" class="section">
+
+
+        <div class="section_1_text">
+            <h2>One short link, infinite possibilities</h2>
+            <p>A short link is a powerful marketing tool when you use it carefully. It is not just a <br> link but a
+                medium
+                between your customer and their destination.</p>
+        </div>
+        <div class="card_container">
+            <div class="card">
+                <img src="Images/Icons/target.png" alt="">
+                <h3>Smart Targeting</h3>
+                <p>Target your customer to increase your reach and redirect them to a relevant page. Add a pixel to
+                    tetarget them in your social media ad campaign to capture them. </p>
+            </div>
+            <div class="card">
+                <img src="Images/Icons/analytics.png" alt="">
+                <h3>In-Depth Analytics</h3>
+                <p>Share your links to your network and measure data to optimize your marketing campaign's performance.
+                    Reach an audience that fits your needs.</p>
+            </div>
+            <div class="card">
+                <img src="Images/Icons/laptop.png" alt="">
+                <h3>Digital experience</h3>
+                <p>Use various powerful tools increase conversion and provide a non-intrusive experience to your
+                    customers without disengaging them.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_2" class="section">
+        <div class="row_1">
+            <div class="col_1">
+                <img src="Images/12643942_5024145.svg" alt="">
+            </div>
+            <div class="col_2">
+                <span>Sales & marketing</span>
+                <h3>Perfect for sales & marketing</h3>
+                <p>
+                    Understanding your users and customers will help you increase your conversion. Our system allows you
+                    to track everything. Whether it is the amount of clicks, the country or the referrer, the data is
+                    there for you to analyze it.</p>
+                <div class="features">
+                    <p> <img src="Images/Icons/export.png" alt="">Redirection tools</p>
+                    <p><img src="Images/Icons/statistics.png" alt="">Powerful statistics</p>
+                    <p><img src="Images/Icons/user.png" alt="">Beautiful profiles</p>
+                </div>
+            </div>
+        </div>
+        <div class="row_2">
+            <div class="col_1">
+                <span>Sales & marketing</span>
+                <h3>Powerful tools that work</h3>
+                <p>
+                    Our product lets you target your user to better understand their behavior and provide them a better
+                    overall experience through smart re-targeting. We provide you many powerful tools to reach them
+                    better.</p>
+                <div class="features">
+                    <p> <img src="Images/Icons/export.png" alt="">Link management</p>
+                    <p><img src="Images/Icons/statistics.png" alt="">Privacy control</p>
+                    <p><img src="Images/Icons/user.png" alt="">Powerful dashboard</p>
+                </div>
+            </div>
+            <div class="col_2">
+                <img src="Images/19822328_6166860.jpg" alt="">
+            </div>
+        </div>
+        <div class="row_3">
+            <div class="col_1">
+                <img src="Images/9457127_4184371.jpg" alt="">
+            </div>
+            <div class="col_2">
+                <span>Sales & marketing</span>
+                <h3>QR codes</h3>
+                <p>
+                    Easy to use, dynamic and customizable QR codes for your marketing campaigns. Analyze statistics and
+                    optimize your marketing strategy and increase engagement.</p>
+                <button class="btn">Get started<i class='bx bx-chevron-right'></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_3" class="section">
+        <div class="row">
+            <div class="col_1">
+                <span>Sales & marketing</span>
+                <h3>Optimize your marketing strategy</h3>
+                <p>
+                    Understanding your users and customers will help you increase your conversion. Our system allows you
+                    to track everything. Whether it is the amount of clicks, the country or the referrer, the data is
+                    there for you to analyze it.</p>
+                <button class="btn">Get Started<i class='bx bx-chevron-right'></i></button>
+            </div>
+            <div class="col_2">
+                <img src="Images/Marketing consulting-pana.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="section_4" class="section">
+        <p>Connect with popular tools and boost your productivity</p>
+        <h2>Integrations</h2>
+        <div class="logo_container">
+            <div>
+                <img src="Images/Logo/google-analytics.png" alt="">
+                <p>Google analytics</p>
+            </div>
+            <div>
+                <img src="Images/Logo/Facebook.png" alt="">
+                <p>Facebook</p>
+            </div>
+            <div>
+                <img src="Images/Logo/instagram.png" alt="">
+                <p>Instagram</p>
+            </div>
+            <div>
+                <img src="Images/Logo/Slack.png" alt="">
+                <p>Slack</p>
+            </div>
+            <div>
+                <img src="Images/Logo/wordpress.png" alt="">
+                <p>Wordpress</p>
+            </div>
+            <div>
+                <img src="Images/Logo/twitter.png" alt="">
+                <p>Twitter</p>
+            </div>
+            <div>
+                <img src="Images/Logo/quora.png" alt="">
+                <p>Quora</p>
+            </div>
+            <div>
+                <img src="Images/Logo/reddit.png" alt="">
+                <p>Reddit</p>
+            </div>
+            <div>
+                <img src="Images/Logo/snapchat.png" alt="">
+                <p>Snapchat</p>
+            </div>
+            <div>
+                <img src="Images/Logo/wordpress.png" alt="">
+                <p>Wordpress</p>
+            </div>
+            <div>
+                <img src="Images/Logo/google-analytics.png" alt="">
+                <p>Google analytics</p>
+            </div>
+            <div>
+                <img src="Images/Logo/facebook.png" alt="">
+                <p>Facebook</p>
+            </div>
+            <div>
+                <img src="Images/Logo/photoshop.png" alt="">
+                <p>Photoshop</p>
+            </div>
+            <div>
+                <img src="Images/Logo/gmail.png" alt="">
+                <p>Gmail</p>
+            </div>
+            <div>
+                <img src="Images/Logo/whatsapp.png" alt="">
+                <p>Whatsapp</p>
+            </div>
+            <div>
+                <img src="Images/Logo/youtube.png" alt="">
+                <p>Youtube</p>
+            </div>
+        </div>
+        <button class="btn">Get Started<i class='bx bx-chevron-right'></i></button>
+    </section>
+
+    <section id="section_5" class="section">
+        <div class="section_heading">
+            <p>1,157 people have said how good rapid shrink</p>
+            <h2>Our happy users say about us</h2>
+        </div>
+        <div class="card_container">
+            <div class="card">
+                <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                        class='bx bxs-star'></i><i class='bx bxs-star'></i></p>
+                <p class="card_text">"Great experience using the URL shortener! The link work perfectly every time, and
+                    I appreciate the
+                    analytics feature to track clicks."</p>
+                <div class="profile">
+                    <img src="Images/profile.png" alt="">
+                    <div>
+                        <p>Jacob jones</p>
+                        <p>Digital marketer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                        class='bx bxs-star'></i><i class='bx bxs-star'></i></p>
+                <p class="card_text">"The URL shortemer service providedis excellent. It allowed me to easily shorten
+                    long URLs and share them efficiently."</p>
+                <div class="profile">
+                    <img src="Images/profile.png" alt="">
+                    <div>
+                        <p>Jenny wilson</p>
+                        <p>Senior accountant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_header">
+                    <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                            class='bx bxs-star'></i><i class='bx bxs-star'></i></p>
+                </div>
+                <div class="card_body">
+                    <p class="card_text">"Great URL shortener! It's user friendly, fast and reliable. Higly
+                        recommended!."
+                    </p>
+                </div>
+                <div class="card_footer">
+                    <div class="profile">
+                        <img src="Images/profile.png" alt="">
+                        <div>
+                            <p>Jacob jones</p>
+                            <p>Digital marketer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section_6" class="section">
+        <p>FAQ</p>
+        <h2>Have a question?</h2>
+        <div class="faq_container">
+            <div class="faq">
+                <div class="question">
+                    <h4>What is a URL shortener?</h4>
+                    <i class='bx bx-plus plus-icon'></i>
+                    <i class='bx bx-minus minus-icon'></i>
+                </div>
+                <div class="answer">
+                    A URL shortener is a service that takes a long URL and creates a shortened version, making it more
+                    manageable and convenient, especially for sharing on platforms with character limits.
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h4>How do I shorten a URL?</h4>
+                    <i class='bx bx-plus plus-icon'></i>
+                    <i class='bx bx-minus minus-icon'></i>
+                </div>
+                <div class="answer">
+                    To shorten a URL, simply visit our website, paste the long URL into the provided space, and click
+                    the "Shorten" button. Your shortened URL will be generated instantly.
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h4>Is registration required to use the URL shortener?</h4>
+                    <i class='bx bx-plus plus-icon'></i>
+                    <i class='bx bx-minus minus-icon'></i>
+                </div>
+                <div class="answer">
+                    No, registration is not required for basic URL shortening. However, creating an account offers
+                    additional features, such as tracking and managing your shortened URLs.
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h4>How long will my shortened URL be valid?</h4>
+                    <i class='bx bx-plus plus-icon'></i>
+                    <i class='bx bx-minus minus-icon'></i>
+                </div>
+                <div class="answer">
+                    By default, shortened URLs have no expiration date. They will remain active as long as our service
+                    is operational and the URL does not violate our terms of service.
+                </div>
+            </div>
+            <div class="faq">
+                <div class="question">
+                    <h4>Do you track or store any personal information from users?</h4>
+                    <i class='bx bx-plus plus-icon'></i>
+                    <i class='bx bx-minus minus-icon'></i>
+                </div>
+                <div class="answer">
+                    We prioritize user privacy. We do store analytics data, but it is anonymized, and we do not collect
+                    personal information without user consent. Refer to our privacy policy for more information.
+                </div>
+            </div>
+        </div>
+        <p>Didn't find the answer you were looking for? <a href="#">Contact our support</a></p>
+    </section>
+
+    <footer id="footer">
+        <div class="footer_container">
+
+            <div class="footer_row_1">
+
+                <div class="footer_text">
+                    <p>Most link shortener do too much. This one just makes your link shorter.</p>
+                    <p class="social_icons">
+                        <span><i class='bx bxl-facebook-circle'></i></span>
+                        <span><i class='bx bxl-instagram-alt'></i></span>
+                        <span><i class='bx bxl-twitter'></i></span>
+                        <span><i class='bx bxl-gmail'></i></span>
+                    </p>
+                </div>
+                <div class="footer_links">
+                    <div class="links_1">
+                        <h3>Solutions</h3>
+                        <a href="">QR Codes</a>
+                        <a href="">Digital Experience</a>
+                        <a href="">Bio profiles</a>
+                    </div>
+                    <div class="links_2">
+                        <h3>Company</h3>
+                        <a href="">Developer API</a>
+                        <a href="">Help us</a>
+                        <a href="">Contact us</a>
+                        <a href="">Our team member</a>
+                    </div>
+                    <div class="links_3">
+                        <h3>Newsletter</h3>
+                        <p>We'll keep you updated with the latest offers on daily or weekly basis. Special promo,
+                            discounts and more.</p>
+                        <input type="email" placeholder="Enter email">
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_row_2">
+                <p>All rights reserved</p>
+                <div>
+                    <a href="">Refund policy</a>
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Report</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="to-the-top">
+        <a href="#hero-section"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+    <!-- Social icons  -->
+
+    <div class="social-icons">
+        <a href=""><img src="/Images/Social_icons/instagram.png" alt=""></i></a>
+        <a href=""><img src="/Images/Social_icons/facebook.png" alt=""></i></a>
+        <a href=""><img src="/Images/Social_icons/linkedin.png" alt=""></i></a>
+        <a href=""><img src="/Images/Social_icons/whatsapp.png" alt=""></i></a>
+        <a href=""><img src="/Images/Social_icons/twitter.png" alt=""></i></a>
+    </div>
+
+</body>
+
+</html>
